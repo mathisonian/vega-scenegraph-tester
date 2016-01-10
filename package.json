@@ -1,0 +1,14 @@
+{
+  "name": "sg-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify app.js -o bundle.js --iw \"**/node_modules/!(vega)\"",
+    "start": "npm run watch & http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify-shim": {},
+  "author": "",
+  "license": "ISC"
+}
