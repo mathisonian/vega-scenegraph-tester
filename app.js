@@ -9,7 +9,7 @@ var parser = function(selector, renderer) {
 }
 
 
-var spec = require('./specs/line-quadratic-curve.json');
+var spec = require('./specs/line.json');
 
 
 parser('#vis-svg', 'svg')(spec);
