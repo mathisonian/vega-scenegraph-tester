@@ -42,12 +42,12 @@
       "from": {"data": "table"},
       "properties": {
         "enter": {
-          "interpolate": {"value": "linear"},
+          "interpolate": {"value": "basis"},
           "x": {"scale": "x", "field": "x"},
           "y": {"scale": "y", "field": "y"},
           "y2": {"scale": "y", "value": 0},
           "stroke": {"value": "black"},
-          "strokeWidth": {"value": 1}
+          "strokeWidth": {"value": 4}
         },
         "update": {
           "fillOpacity": {"value": 1}

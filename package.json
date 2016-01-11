@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "watchify app.js -o bundle.js --iw \"**/node_modules/!(vega)\"",
-    "start": "npm run watch & http-server",
+    "start": "npm run watch & http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserify-shim": {},
